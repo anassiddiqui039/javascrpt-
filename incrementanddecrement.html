@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>incr/decr operator</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+
+        }
+
+
+
+        .btn {
+            height: 75px;
+            width: 80px;
+            margin-top: 20%;
+        }
+
+        #para {
+            height: 75px;
+            width: 80px;
+            text-align: center;
+            font-size: 4.5rem;
+
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <button id="decrement" class="btn" onclick="opr('minus')">
+        <h1>-</h1>
+    </button>
+    <p id="para" class="btn">0</p>
+    <button class="btn" id="increment" onclick="opr('add')">
+        <h1>+</h1>
+    </button>
+    <script>
+        function opr(sign) {
+
+            var txt = document.getElementById("para").innerText;
+            text = parseInt(txt);
+            if (sign == "add") {
+
+                document.getElementById("para").innerText = text + 1;
+             
+
+            }
+            else {
+                document.getElementById("para").innerText = text - 1;
+              
+            }
+
+
+
+
+
+        }
+    </script>
+
+
+</body>
+
+</html>
