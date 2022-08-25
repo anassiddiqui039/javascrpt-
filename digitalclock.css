@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Lobster&family=Nunito:ital,wght@1,200&family=Sansita+Swashed:wght@500&display=swap');
+body{
+    background-color:black;
+    
+}
+
+.clockDisplay{
+    
+    text-align: center;
+    font-size: 5rem;
+    font-family: 'Sansita Swashed', cursive;
+    color: #d6cfff;
+    margin-top: 15%;
+
+}
+h1{
+    font-size: 5rem;
+    text-align: center;
+    font-family: 'Sansita Swashed', cursive;
+    
+}
