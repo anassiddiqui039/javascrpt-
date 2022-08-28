@@ -15,8 +15,6 @@ function rendertable() {
     document.getElementById("PId").value ="";
     document.getElementById("PName").value ="";
     document.getElementById("pPrice").value ="";
-
-
 };
 
 
@@ -29,11 +27,5 @@ function rendertable() {
 
 
 
-    //     // alert()
 
-    //     pop();
-    //     function pop() {
-    //         text += "<tr><th>ID</th><th>NAME</th><th>PRICE</th></tr>"
-    //         // console.log(text)
 
-    //     }
