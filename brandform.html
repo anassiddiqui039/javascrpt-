@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+    <title>brandform</title>
+    <link rel="stylesheet" href="brandform.css">
+</head>
+
+<body>
+    <div class="parentContainer">
+        <div class="left">
+            <img src="logo1.jpg" alt="">
+        </div>
+        <div class="right">
+            <div class="upperside">
+            <h1 class="pink">Get Started</h1><br>
+            <p class="pink" style=" font-size: 18px;">Already have an Account?</p><br>
+            <p class="pink" id="blue" style=" font-size: 18px;">Log In</p><br>
+            <div class="logo">
+                <button onclick="opengoogle()" ><i class="fab fa-google fa-1x"></i>sign up</button>
+                <button onclick="openfb()"><i class="fa fa-facebook-square fa-1x"></i>sign up</button>
+            </div>
+        </div>
+        <p id="or" style="text-align: center;">Or</p><br>
+
+        <!-- </div> -->
+        <div class="div">
+            <div class="form">
+                <label for="name">Name</label>
+                <div> <i class="fa fa-user" aria-hidden="true"></i> <input id="name" placeholder="Enter the name"
+                        type="text" name="name" ></div><span id="nameerror"></span><br>
+
+                <label for="email">Email</label>
+                <div><i class="fa fa-envelope-open" aria-hidden="true"></i></i><input id="email" name="email"
+                        placeholder="Enter the email" type="email" autocomplete="off"></div><br>
+                <label for="email">Password</label>
+                <div> <i class="fa fa-key" aria-hidden="true"></i><input id="pass" name="pass" placeholder="***"
+                        type="password">
+                </div><br>
+               <button class="btn" onclick="validateform()">Submit</button>
+            
+            </div>
+
+        </div>
+    </div>
+    </div>
+    <script src="brandform.js"></script>
+
+</body>
+
+</html>
